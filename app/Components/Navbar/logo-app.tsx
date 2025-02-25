@@ -10,9 +10,9 @@ const LogoApp = () => {
       </div>
 
       {/* Container for the name */}
-      <div className="flex gap-1 items-center">
-        <span className="text-xl font-bold"> Pro</span>
-        <span className="text-xl">Kanban</span>
+      <div className="flex gap-1 items-center text-xl">
+        <span className="font-bold"> Pro</span>
+        <span>Kanban</span>
       </div>
     </div>
   );
