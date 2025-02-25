@@ -1,6 +1,7 @@
 import { MdOutlineSortByAlpha } from "react-icons/md";
 import SortingDropDown from "../../DropDown/SortingDropDown";
 import { Button } from "@/components/ui/button";
+import TaskDialog from "../../WindowDialog/TaskDialog";
 
 const ProjectAreaTask = () => {
   return (
@@ -22,7 +23,7 @@ const ProjectAreaTask = () => {
         {/* sorting dropdown */}
         <SortingDropDown />
 
-        <Button className="rounded-3xl px-4">Add Task</Button>
+        <TaskDialog />
       </div>
     </div>
   );
